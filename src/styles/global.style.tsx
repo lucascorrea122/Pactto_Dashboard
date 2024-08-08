@@ -8,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: ${({theme}) => theme.colors.primary};
+        background: ${({theme}) => theme.colors.primary_grey};
         font-size: 14px;
     }
 
