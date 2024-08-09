@@ -1,4 +1,4 @@
-import { Button, Div, SubTitle, Title } from "../../styles/global.style"
+import { Button, Div, Input, SubTitle, Title } from "../../styles/global.style"
 import { Label, LabelContainer, LabelItem, Link, TODO } from "./home.styled";
 
 const Home = () => {
@@ -39,6 +39,9 @@ const Home = () => {
                 <Title >My uploads</Title>
                 <Button>Upload new video</Button>
             </Div>
+
+            <Input mt={50} placeholder="Search" ></Input>
+      
         </>
 
 

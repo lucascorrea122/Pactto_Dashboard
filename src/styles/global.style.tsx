@@ -56,3 +56,25 @@ export const Div = styled.div<Prop>`
     margin-top: ${props => props.mt ?  props.mt+'px' : ''};
 
 `;
+
+export const Input = styled.input<Prop>`
+    width: 100%;
+    background-color: transparent;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: ${({theme}) => theme.colors.secundary_light_grey};
+    margin-top: ${props => props.mt ?  props.mt+'px' : ''};
+    height: 54px;
+    padding: 0px 16px 0px 16px; 
+    color: ${({theme}) => theme.colors.secundary_white};
+    font-weight: bold;
+    font-size: 16px;
+   
+    &:hover{
+        border-color: ${({theme}) => theme.colors.accent_cyan};
+    }
+  
+    
+`;
+
