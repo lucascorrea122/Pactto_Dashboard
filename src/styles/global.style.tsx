@@ -38,6 +38,15 @@ export const Text = styled.p`
     font-size: 12px;
 `;
 
+export const TextInput = styled.p`
+    color: ${({theme}) => theme.colors.secundary_white};
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 6px;
+    margin-top: 40px;
+    
+`;
+
 export const Button = styled.button`
     background-color: ${({theme}) => theme.colors.accent_cyan};
     border-radius: 24px;
@@ -73,8 +82,7 @@ export const Input = styled.input<Prop>`
    
     &:hover{
         border-color: ${({theme}) => theme.colors.accent_cyan};
-    }
-  
-    
+    }  
 `;
+
 
