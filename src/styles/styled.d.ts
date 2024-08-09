@@ -18,6 +18,8 @@ declare module 'styled-components' {
             accent_red: string,
     
             background: string,
+
+            grey: string,
         }
     }
 

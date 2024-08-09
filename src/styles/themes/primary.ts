@@ -7,7 +7,7 @@ export default {
         primary_yellow: '#ffba03',
         
         secundary_white: '#f3f3f2',
-        secundary_light_grey: '#baf8f8',
+        secundary_light_grey: '#bab8b8',
         secundary_light_yellow: '#ffdd81',
 
         accent_green: '#7e9c3d',
@@ -15,5 +15,8 @@ export default {
         accent_red: '#d92336',
 
         background: 'blue',
+
+        grey: '#626262'
+
     }
 }
