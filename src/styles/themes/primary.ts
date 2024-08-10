@@ -16,7 +16,8 @@ export default {
 
         background: 'blue',
 
-        grey: '#626262'
+        grey: '#626262',
+        sidebar: '#2F2F2F'
 
     }
 }
