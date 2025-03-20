@@ -6,8 +6,9 @@ import { createRoot } from 'react-dom/client'
 import { GlobalStyle } from './styles/global.style.tsx'
 import { ThemeProvider } from 'styled-components'
 import primary from './styles/themes/primary.ts'
-import Home from './components/home/home-component.tsx'
+
 import Pacttos from './components/pacttos_chat/pacttos.component.tsx'
+import { Sidebar } from './components/Sidebar/Sidebar.tsx'
 
 
 createRoot(document.getElementById('root')!).render(
@@ -15,7 +16,8 @@ createRoot(document.getElementById('root')!).render(
       <ThemeProvider theme={primary}>
         <GlobalStyle />
           {/* <Home /> */}
-          <Pacttos />
+          <Sidebar />
+        
       </ThemeProvider>
    
   </StrictMode>,

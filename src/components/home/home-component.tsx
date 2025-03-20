@@ -3,8 +3,8 @@ import { Label, LabelContainer, LabelItem, Link, TODO } from "./home.styled";
 
 const Home = () => {
     return (
-        <>
-            <SubTitle mb={20}>Hey Lucas, welcome to Pactto!</SubTitle>
+        <div>
+            <SubTitle mb={20}>Hey Lucas, welcome to Pacttoo!</SubTitle>
             <LabelContainer >
                 <LabelItem>
                     <TODO>DONE</TODO>
@@ -42,7 +42,7 @@ const Home = () => {
 
             <Input mt={50} placeholder="Search" ></Input>
       
-        </>
+        </ div>
 
 
     );

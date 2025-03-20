@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
         background: ${({theme}) => theme.colors.primary_grey};
         font-size: 14px;
         font-family: 'arial';
-        padding: 32px;
+        /* padding: 32px; */
     }
 
 `;
